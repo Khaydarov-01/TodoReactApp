@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: darkgray;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .search-bar {
+  position: relative;
+  width: 380px;
+  height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 510px) {
+  .navbar .search-bar {
+    width: 320px;
+  }
+}
+
+.navbar .search-bar .fa-solid {
+  position: absolute;
+  font-size: 20px;
+  top: 8px;
+  left: 6px;
+  color: #fff;
+}
+
+.navbar .search-bar input {
+  position: absolute;
+  width: 90%;
+  height: 32px;
+  outline: none;
+  font-size: 18px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  border-right: none;
+  padding-left: 30px;
+}
+
+.navbar button {
+  width: 130px;
+  height: 34px;
+  border: none;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  color: #fff;
+  font-size: 16px;
+  font-family: sans-serif;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.todoList {
+  padding-left: 10px;
+}
+
+.todoList h2 {
+  font-family: monospace;
+  font-size: 25px;
+  margin: 5px 0;
+}
+
+.todoList button {
+  width: 130px;
+  height: 34px;
+  border: none;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  color: #fff;
+  font-size: 16px;
+  font-family: sans-serif;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.todoList button:nth-child(2) {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=styled.css.map */
